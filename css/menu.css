@@ -1,0 +1,178 @@
+*{
+	margin: auto;
+	font-family: Segoe UI;
+}
+#menu-bar{
+	display: none;
+}
+#nav{
+	top:0;
+	width: 100%;
+	height: 60px;
+	margin: auto;
+	background: #1bd698;
+	display:flex;
+	z-index: 101;
+	position: fixed;
+}
+.contenedor_nav{
+	width: 100%;
+}
+#logo{
+    position: relative;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    top: 10px;
+    left: 15px;
+}
+.icon-menu{
+	float: right;
+	font-size: 40px;
+	margin: 4px;
+	cursor: pointer;
+	color: #fff;
+}
+.menu{ 
+	position: absolute;
+	top: 60px;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background: rgba(46, 50, 59,0.9);
+	transition: all 0.5s;
+	transform: translateX(-100%);
+ }
+ .menu_a{
+ 	display: block;
+ 	color: #2e323b;
+ 	height: 50px;
+ 	text-decoration: none;
+ 	background: #fff;
+ 	border-bottom: 1px solid rgb(46, 50, 59);
+ 	font-size: 20px;
+ 	padding: 20px 20px 0;
+
+
+ }
+ .menu_a:hover{
+ 	background: #aab1b9;
+ 	color: #fff;
+ }
+ #menu-bar:checked ~ .menu{
+ 	transform: translateX(0%);
+ }
+ footer{
+ 	padding-top: 30px;
+ }
+ #footer{
+	width: 100%;
+	background: #fff;
+	text-align: center;
+}
+#logo_footer{
+	background: #1bd698;
+	width: 140px;
+	height: 50px;
+	text-align: center;
+}
+#logo_footer a{
+	position: relative;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    top: 8px;
+}
+#footer ul{
+	padding: 0;
+    margin: 20px auto;
+    justify-content: center;
+    display: grid;
+}
+#footer h3{
+	font-size: 18px;
+	font-weight: medium;
+	color: #2e323b;
+	margin: 15px 0;
+}
+.icon-facebook-squared{
+	position: relative;
+	font-size: 18px;
+	color: #7A7676;
+}
+#footer ul a{
+	text-decoration: none;
+    font-size: 16px;
+    color: #707070;
+    font-weight: bold;
+    padding: 5px 0;
+    margin: 0;
+    text-align: left;
+}
+#footer p{
+	text-decoration: none;
+	font-size: 16px;
+	color: #707070;
+	font-weight: bold;
+}
+#author{
+	background: #1bd698;
+    padding: 10px 20px;
+    text-align: center;
+}
+#author p{
+	font-size: 16px;
+    color: #fff;
+}
+@media (min-width: 1200px){
+ #nav{
+	position: relative;
+	height: 60px;
+}
+.contenedor_nav{
+ 	width: 1200px;
+}
+#logo img{
+ 	margin: 6px 0px 0;
+ 	width: 100px;
+}
+.menu{
+ 	background: #1bd698;
+ 	position: static;
+ 	width: auto;
+ 	height: auto;
+ 	transform: translateX(0%);
+ 	float: right;
+ 	display: flex;
+ 	height: 60px;
+}
+.menu_a{
+ 		height: 30px;
+ 		font-size: 18px;
+        background: #1bd698;
+        color:#fff;
+ 		border: none;
+ 		padding: 17px 25px 13px;
+}
+.menu_a:hover{
+ 	background: #fff;
+ 	color: #6D6D6D;
+}
+.icon-menu{
+	    display: none;
+}
+#footer{
+	width: 1200px;
+	display: flex;
+	justify-content:center;
+}
+#logo_footer{
+	margin:40px;
+	margin: 100px 50px;
+}
+#footer ul{
+	margin: 80px 50px;
+}
+}
