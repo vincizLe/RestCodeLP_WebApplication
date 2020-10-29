@@ -132,6 +132,24 @@
 	background: #1bd698;
 	color: #fff;
 }
+.usuario button a{
+    text-decoration: none;
+    color: #fff;
+}
+li{
+    text-align: left;
+}
+.plan{
+    margin-bottom: 30px;
+}
+.plan label{
+    font-size: 72px;
+    color: #1bd698;
+}
+.plan p{
+    text-align: center;
+    font-weight: bold;
+}
 @media (min-width: 700px){
 #portada{
 	top:0px;
