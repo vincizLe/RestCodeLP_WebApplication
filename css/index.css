@@ -150,6 +150,21 @@ li{
     text-align: center;
     font-weight: bold;
 }
+#video_box{
+    width: 100%;
+    text-align: center;
+}
+#video_box p{
+    font-size: 28px;
+    color: #565658;
+    padding: 10px 0 30px;
+}
+#box{
+    width: 98%;
+}
+#box iframe{
+    
+}
 @media (min-width: 700px){
 #portada{
 	top:0px;
